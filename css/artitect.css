@@ -287,16 +287,20 @@ height: 40px;
 
 
 footer {
+
+    
     background-color: #FFF4E7;
     text-align: center;
     padding: 15px 0;
     border-radius: 6px;
-}
+}     
 
 
 /* responsive */
 @media screen  and (max-width:560px){
     
+
+
 
 nav{
 
@@ -404,6 +408,13 @@ justify-content: left;
     object-fit: cover;
     height: 100%;
 }
+.reward-text{
+
+    width: 90%;
+    margin: 0 auto;
+}
+
+
 }
 
 
