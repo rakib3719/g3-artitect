@@ -108,7 +108,7 @@ max-width: 100%;
 
 }
 
-main{
+main, footer{
 
 
     width: 86%;
@@ -227,9 +227,71 @@ margin-top: 30px;
 }
 
 
+/* reward section */
 
 
 
+
+.reward-section{
+
+    margin-top: 100px;
+}
+
+.reward-text{
+
+    width: 400px;
+}
+
+.reward-card{
+
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+.reward-card-item {
+    border-radius: 8px;
+    border: 1px solid #FF900E;
+    padding: 23px 34px;
+    text-align: center;
+}
+
+
+/* sponser-section-style */
+
+.sponser-section{
+
+
+    margin-top: 100px;
+}
+
+.sponser-title{
+    text-align: center;
+    width: 530px;
+    margin: auto;
+}
+
+
+.sponser-item{
+
+    margin-top: 80px;
+    display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+.sponser-item img{
+width: 100px;
+height: 40px;
+
+}
+
+
+footer {
+    background-color: #FFF4E7;
+    text-align: center;
+    padding: 15px 0;
+    border-radius: 6px;
+}
 
 
 /* responsive */
@@ -283,9 +345,13 @@ justify-content: left;
 }
 
 .team-section, 
-.feture-section{
+.feture-section,
+.reward-card,
+.sponser-item
+{
 
     flex-direction: column;
+   
 }
 
 .team-text, .team-img {
@@ -313,8 +379,31 @@ justify-content: left;
     width: 90%;
     margin: 30px auto;
 }
+.reward-card-item{
 
+    margin-bottom: 30px;
+}
 
+.sponser-item{
+
+    text-align: center;
+    width: 80%;
+    margin:30px auto;
+    margin-top: 100px;
+}
+
+.sponser-title{
+
+    width: 96%;
+    margin: auto;
+}
+.sponser-item img{
+
+    width: 100%;
+    margin-bottom: 60px;
+    object-fit: cover;
+    height: 100%;
+}
 }
 
 
@@ -367,7 +456,11 @@ justify-content: left;
                     margin-top: 30px;
                 }
 
-                .feture-section{
+                .feture-section,
+                .reward-card
+
+          
+                {
 
                     flex-direction: column;
                 }
@@ -377,5 +470,9 @@ justify-content: left;
                     margin: 30px auto;
                 }
                 
+                .reward-card-item{
+
+                    margin-bottom: 30px;
+                }
 
 }
